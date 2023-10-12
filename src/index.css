@@ -1,0 +1,36 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  max-width: 1200px;
+  background: #bfdbfe;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+#map {
+  height: 400px;
+  width: 700px;
+}
+.on-time {
+  background-color: white !important;
+}
+.cancelled {
+  background-color: yellow !important;
+}
+.delayed {
+  background-color: red;
+}
+
+#chart-container {
+  width: 100%; /* Set the width as desired, e.g., 100% for full width */
+  height: 400px; /* Set the height as desired, e.g., 400px */
+}
